@@ -1,19 +1,23 @@
-# 🎈 Blank app template
+# Instrucciones para ejecutar la aplicación Agente con IA
 
-A simple Streamlit app template for you to modify!
+## Requisitos:
+- Tener Python instalado (descargar desde https://www.python.org/downloads/)
+- Instalar las dependencias ejecutando en la terminal:
+  ```bash
+  pip install -r requirements.txt
+  ```
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
-
-1. Install the requirements
-
+## Cómo ejecutar la aplicación:
+1. Abre una terminal y navega hasta la carpeta del proyecto con:
+   ```bash
+   cd mi_agente_ia
    ```
-   $ pip install -r requirements.txt
+2. Inicia la aplicación con:
+   ```bash
+   streamlit run app.py
    ```
+3. Se abrirá una pestaña en tu navegador mostrando la aplicación con estadísticas en tiempo real.
 
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Cómo subir a un servidor:
+Puedes subir este proyecto a **Streamlit Cloud** o **Heroku**.  
+Si necesitas ayuda con esto, contáctame. 🚀
